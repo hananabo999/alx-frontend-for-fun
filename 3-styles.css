@@ -1,0 +1,55 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-open {
+  appearance: none;
+  appearance: none;
+}
+
+.menu-open-button {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: red;
+  margin-bottom: 6px;
+}
+
+.menu-line {
+  width: 20px;
+  height: 1px;
+  background: white;
+  margin: auto;
+
+}
+
+.menu-item {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  border-radius: 50%;
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 6px;
+}
+
+.menu-open-button:hover {
+  height: 50px;
+  width: 50px;
+  transition: 0.1s ease-out;
+}
+
+.menu-open-button:hover .menu-line-1 {
+  margin-top: 15px;
+  transition: 0.1s;
+}
+
+.menu-open-button:hover .menu-line {
+  
+}
